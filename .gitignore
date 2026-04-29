@@ -1,0 +1,9 @@
+# Test binaries
+*.test
+*.out
+coverage.out
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
