@@ -16,5 +16,8 @@
 //	reply := callYourLLM(safe)
 //	out, err := shield.Rehydrate(ctx, reply)
 //
+// A single *Client is safe for concurrent use by multiple goroutines;
+// create one at startup and reuse it.
+//
 // Single import path; no third-party runtime dependencies.
 package peyeeye
