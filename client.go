@@ -17,7 +17,7 @@ import (
 const DefaultBaseURL = "https://api.peyeeye.ai"
 
 // Version of this SDK. Reflected in the User-Agent header.
-const Version = "1.1.2"
+const Version = "1.1.3"
 
 const userAgent = "peyeeye-go/" + Version
 
